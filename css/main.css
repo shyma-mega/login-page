@@ -1,0 +1,108 @@
+body {
+    background-image: url(../images/scenic-mountain-sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.contianer {
+    background-color: rgb(0 0 0 / 50%);
+    width: 1480px;
+    height: 750px;
+    margin: 20px auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    max-width: 100%;
+}
+
+.contianer h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contianer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.contianer .register {
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.contianer .register:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.contianer input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 5px 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contianer .Enter {
+    background-color: #2bcbba;
+    border: none;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 6px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.contianer .Enter:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

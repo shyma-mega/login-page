@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool App | shyma mega</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script>
+        function registerForm() {
+            document.getElementsByClassName('register')[0].innerHTML = "Login";
+            document.getElementsByClassName('title')[0].innerHTML = "Register to Cool App";
+            document.getElementsByClassName('Email')[0].placeholder = "Enter your email";
+            document.getElementsByClassName('password')[0].placeholder = "Enter your password";
+            document.getElementsByClassName('Enter')[0].innerHTML = "Register";
+        }
+        function logIn() {
+            Swal.fire({
+                position: 'mid',
+                icon: 'success',
+                title: 'Welcome to the Cool App',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="contianer">
+        <button class="register" onclick="registerForm()">Register</button>
+        <h2 class="title">Cool App</h2>
+        <img src="images/photo-1529068755536-a5ade0dcb4e8.avif" alt="">
+        <input type="Email" name="Email" class="Email" placeholder="Email">
+        <input type="password" name="password" class="password" placeholder="password">
+        <button class="Enter" onclick="logIn()">Enter</button>
+    </div>
+
+</body>
+
+</html>

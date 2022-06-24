@@ -80,8 +80,10 @@ body {
 }
 @media {
     .contianer input {
-        padding: 60px 50px;
+        padding: 20px 50px
         text-align: center;
+               font-size: 12px;
+
     }
 }
 .contianer .Enter {

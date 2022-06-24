@@ -78,7 +78,12 @@ body {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-
+@media {
+    .contianer input {
+        padding: 10px 50px;
+        text-align: center;
+    }
+}
 .contianer .Enter {
     background-color: #2bcbba;
     border: none;

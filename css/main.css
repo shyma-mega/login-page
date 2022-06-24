@@ -80,9 +80,11 @@ body {
 }
 @media {
     .contianer input {
-        padding: 20px 50px
+          width: 100px;
+        max-width: 100%;
+        height: 30px;
         text-align: center;
-               font-size: 12px;
+
 
     }
 }
